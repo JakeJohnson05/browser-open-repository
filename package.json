@@ -4,7 +4,8 @@
   "description": "Opens a github repository in the browser",
   "main": "cli.js",
   "scripts": {
-    "start": "node cli.js"
+    "start": "node cli.js",
+    "test": "xo && ava && tsd"
   },
   "bin": {
     "open-repo": "cli.js"
@@ -35,6 +36,8 @@
     "yargs": "^15.3.1"
   },
   "devDependencies": {
-    "ava": "^3.8.1"
+    "ava": "^3.8.1",
+    "tsd": "^0.11.0",
+    "xo": "^0.30.0"
   }
 }

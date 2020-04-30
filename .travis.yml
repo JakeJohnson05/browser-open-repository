@@ -1,5 +1,13 @@
-language: javascript
-
-branches:
-  only:
-  - master
+os:
+  - linux
+  - osx
+  - windows
+language: node_js
+node_js:
+  - '13'
+  - 'node'
+jobs:
+  include:
+    - stage: Check Coverage
+      node_js: node
+      script: tap && tap --coverage-report=text-lcov | coveralls && rm -rf ./coverage

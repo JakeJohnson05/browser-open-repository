@@ -5,13 +5,15 @@
   "main": "cli.js",
   "scripts": {
     "start": "node cli.js",
-    "test": "xo && ava && tsd"
+    "test": "xo --fix",
+    "test-no-fix": "xo",
+    "test-all": "xo && ava && tsd"
   },
   "bin": {
     "open-repo": "cli.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=13"
   },
   "repository": {
     "type": "git",
@@ -39,5 +41,10 @@
     "ava": "^3.8.1",
     "tsd": "^0.11.0",
     "xo": "^0.30.0"
+  },
+  "xo": {
+    "rules": {
+      "import/no-unassigned-import": "warn"
+    }
   }
 }

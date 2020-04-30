@@ -1,0 +1,40 @@
+{
+  "name": "browser-open-repository",
+  "version": "1.0.0",
+  "description": "Opens a github repository in the browser",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "bin": {
+    "open-repo": "cli.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeJohnson05/browser-open-repository.git"
+  },
+  "author": {
+    "name": "Jake Johnson",
+    "url": "https://jakejohnson.pro"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeJohnson05/browser-open-repository/issues"
+  },
+  "homepage": "https://github.com/JakeJohnson05/browser-open-repository#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "inquirer-exit-listener": "github:JakeJohnson05/InquirerExitListener",
+    "ipt": "^3.0.3",
+    "simple-output": "^2.1.1",
+    "text-table": "^0.2.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "ava": "^3.8.1"
+  }
+}

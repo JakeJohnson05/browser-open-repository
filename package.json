@@ -5,12 +5,12 @@
   "main": "cli.js",
   "scripts": {
     "start": "node cli.js",
-    "test": "xo --fix",
-    "test-no-fix": "xo",
-    "test-all": "xo && ava && tsd"
+    "test": "xo && ava && tsd",
+    "xoFix": "xo --fix"
   },
   "bin": {
-    "open-repo": "cli.js"
+    "open-repo": "cli.js",
+    "bor": "cli.js"
   },
   "engines": {
     "node": ">=13"
@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "ava": "^3.8.1",
-    "tsd": "^0.11.0",
-    "xo": "^0.30.0"
+    "tsd": "^0.13.1",
+    "xo": "^0.33.1"
   },
   "xo": {
     "rules": {

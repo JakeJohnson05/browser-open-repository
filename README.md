@@ -1,6 +1,6 @@
 # browser-open-repository
 
-[![Build Status](https://travis-ci.org/JakeJohnson05/browser-open-repository.svg?branch=master)](https://travis-ci.org/JakeJohnson05/browser-open-repository)
+[![Build Status](https://api.travis-ci.org/JakeJohnson05/browser-open-repository.svg)](https://travis-ci.org/JakeJohnson05/browser-open-repository)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/JakeJohnson05/browser-open-repository/master/LICENSE)
 
 Open your github repositories in your browser
